@@ -68,7 +68,10 @@ Shared utilities used by small and large models.
  An inference script used by the trained small model to perform in-data and out-of-data downscaling autoregressively.
 
 * **r_rmse_curves.py**
- A plotting script for performing exploratory data analysis and graphical diagnosis of out-of-data downscaling predictions by plotting image-wise RMSE and R square between target day and its associated lags. 
+ A plotting script for performing exploratory data analysis and graphical diagnosis of out-of-data downscaling predictions by plotting image-wise RMSE and R square between target day and its associated lags.
+
+* **semivariogram_ACF_qc_plot.py**
+Generates empirical semivariogram and ACF/PACF diagnostics comparing G5NR, MERRA-2, and model predictions by Season × Area, for both in-data and out-of-data runs.
 
 ---
 
