@@ -1,4 +1,4 @@
-#  Natural‑season train-test split script for training models
+#  Natural‑season train-test split script for training models (shared between small and large model training.)
 #  Author:  Yang Xiang, Date: 2025‑07‑28
 # -------------------------------------------------------------------------
 # How to use the script?
