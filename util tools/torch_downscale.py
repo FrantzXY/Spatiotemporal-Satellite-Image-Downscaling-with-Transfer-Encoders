@@ -1,3 +1,5 @@
+# Author: Yang Xiang, Date: 2005-06-10
+
 import numpy as np
 import sys
 
