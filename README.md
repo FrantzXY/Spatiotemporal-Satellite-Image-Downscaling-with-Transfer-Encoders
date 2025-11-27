@@ -42,7 +42,7 @@ End-to-end scripts for the **large downscaling DDPM** with transferred features 
 Scripts for training and evaluating the **small MERRA-2 U-Net**, and generating transfer encoders.
 
 * **evaluate_small.py**
-  Evaluation of the small model: autoregressive prediction of MERRA-2 day-ahead dust extinction.
+  Evaluates the pretrained small MERRA-2 U-Net by MAE/R² on the validation/test periods.
 
 * **run_small_transfer_unet.sh**
   SLURM script for training small U-Net models across seasons/areas.
