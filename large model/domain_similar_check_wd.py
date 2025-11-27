@@ -1,5 +1,5 @@
 # A script for domain similarity check to justify the usage of transfer learning betwen MERRA2 and G5NR domains.
-# Author: Yang Xiang, Date: 2005-06-20
+# Author: Yang Xiang, Date: 2025-06-20
 # Wasserstein-1D domain similarity between MERRA-2 and G5NR
 # Papers: https://arxiv.org/abs/1707.01217       https://arxiv.org/abs/2009.00909
 
