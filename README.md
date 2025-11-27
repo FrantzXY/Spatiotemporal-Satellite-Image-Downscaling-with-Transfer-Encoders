@@ -4,10 +4,11 @@ This repository contains the full implementation of our **two-stage transfer lea
 
 The pipeline supports:
 
+* Domain Diagnostic for Transfer Learning
 * Seasonal × Regional training
 * U-Net pretraining on long MERRA-2 sequences
-* Transfer-feature generation
-* DDPM downscaling with halo-and-Hann patch stitching
+* Trained DDPM main downscaling modelling with transferred features
+* Preidected Image Stitching with halo-and-Hann
 * In-data and out-of-data evaluation
 
 ---
