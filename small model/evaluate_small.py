@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #### Author: Jingwen Zhong, Date: 2025/07/30
 """
-Evaluate the small transfer model for the use of DDPM with an overall R square over 0.9:
+Evaluate the small transfer model trained on MERRA-2:
 - Denormalizes predictions using norm_params.npz
 - Compares against raw (log10-transformed) MERRA-2 truth
 - Prints MAE and R^2 and writes metrics.json
