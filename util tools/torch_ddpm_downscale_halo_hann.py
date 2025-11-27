@@ -1,3 +1,4 @@
+###_______ Author: Yige Yan, Date: 2025-06-15 _______###
 ###### This is a special downscale script designed for DDPM in PyTorch and Diffusers packages. its _predict_low() is a new one. 
 
 
