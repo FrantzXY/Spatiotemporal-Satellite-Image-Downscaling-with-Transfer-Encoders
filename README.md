@@ -67,6 +67,9 @@ Shared utilities used by small and large models.
 * **torch_downscale.py**
  An inference script used by the trained small model to perform in-data and out-of-data downscaling autoregressively.
 
+* **r_rmse_curves.py**
+ A plotting script for performing exploratory data analysis and graphical diagnosis of out-of-data downscaling predictions by plotting image-wise RMSE and R square between target day and its associated lags. 
+
 ---
 
 ## 🚀 Project Overview
@@ -87,6 +90,6 @@ This project proposes a **transfer-learning-enhanced diffusion downscaler** for 
 
 3. **Evaluation**
 
-   * In-data Downscaling Evaluation: RMSE, MAE, R², NSE, KGE
-   * Out-of-data (OOD) Downscaling Evaluation: semivariograms, ACF/PACF, lag-RMSE, lag-R²
+   * In-data Downscaling Evaluation: RMSE, MAE, R square, NSE, KGE
+   * Out-of-data (OOD) Downscaling Evaluation: Semivariograms, ACF/PACF plots, RMSE plots, R square plots
    * Demonstrates strong spatial detail reconstruction & stable OOD behavior
