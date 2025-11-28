@@ -82,7 +82,7 @@ for mode in modes:
     nse_ = float(nse(y_true, y_hat))
     kge_ = float(kge(y_true, y_hat))
 
-    print(f"Comrades! Here is the overall result: RMSE={rmse:.4f}  MAE={mae:.4f} R²={r2:.4f}  NSE={nse_:.4f}  KGE={kge_:.4f}")
+    print(f"Here is the overall result: RMSE={rmse:.4f}  MAE={mae:.4f} R²={r2:.4f}  NSE={nse_:.4f}  KGE={kge_:.4f}")
 
     rows = []
     for d, t_img, p_img in zip(test_days, y_true, y_hat):
