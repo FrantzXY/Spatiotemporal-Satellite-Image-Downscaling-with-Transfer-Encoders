@@ -1,4 +1,4 @@
-#### NOTE This script is strictly for the DDPM evaluation step. 
+#### NOTE This script is strictly for the DDPM evaluation step by computing pixel-wise RMSE, MAE, R square, NSE, and KGE. 
 #### We use the small model in /project/def-mere/merra2/Ace_Transfer_Downscale/large_model
 #### Author: Yang Xiang, Date: 2025/07/31
 
